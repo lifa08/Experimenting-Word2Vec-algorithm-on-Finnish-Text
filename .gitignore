@@ -1,0 +1,14 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+vocab/*
+
+.DS_Store
+*/.DS_Store
+
+checkpoints/
+visualization/
+data/
+graphs/
+
+python/__pycache__/
