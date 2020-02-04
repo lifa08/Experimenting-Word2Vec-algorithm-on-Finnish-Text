@@ -20,16 +20,24 @@ Experiment Word2Vec skip-gram model to embed textual Finnish words to numerical 
 
 #### Folder: notebooks
 
-fin_w2v_utils.ipynb: Functions to preprocess textual data (e.g. tokenization, lemmatization) in order to construct training inputs for the word2vec skip-gram model.
+[fin_w2v_utils.ipynb](notebooks/fin_w2v_utils.ipynb)
 
-fin_word2vec.ipynb: Implementation of word2vec skip-gram model with NCE loss.
+Preprocess textual data (e.g. tokenization, lemmatization) in order to construct training inputs for the word2vec skip-gram model.
 
-voikko_install.ipynb: Instuctions to install voikko library **libvoikko** on mac.
+[fin_word2vec.ipynb](notebooks/fin_word2vec.ipynb)
 
-voikko_test.ipynb: Test the usage of voikko to tokenize a sentence and lemmatize a document.
+Implement the word2vec skip-gram model with NCE loss.
+
+[voikko_install.ipynb](notebooks/voikko_install.ipynb)
+
+Include instuctions to install voikko library **libvoikko** on mac.
+
+[voikko_test.ipynb](notebooks/voikko_test.ipynb)
+
+Test the usage of voikko to tokenize a sentence and lemmatize a document.
 
 #### Folder: python
 
-fin_w2v_utils.py: python version of fin_w2v_utils.ipynb.
+[fin_w2v_utils.py](python/fin_w2v_utils.py): python version of [fin_w2v_utils.ipynb](notebooks/fin_w2v_utils.ipynb)
 
-fin_word2vec.py: python version of fin_word2vec.ipynb.
+[fin_word2vec.py](python/fin_word2vec.py): python version of [fin_word2vec.ipynb](notebooks/fin_word2vec.ipynb)
