@@ -1,6 +1,7 @@
-# NLP: Experimenting-Word2Vec-algorithm-on-Finnish-Text
+# ![Word2VecFin](notebooks/w2v_model.png)
+# Word2Vec on Finnish Text
 
-Use the Word2Vec skip-gram model to embed textual Finnish words to numerical vectors which is the basis for almost all kind of NLP (Natural Language Processing) tasks. Implement the Word2Vec skip-gram model with tensorflow. Tokenize and lemmatize Finnish texts with the [voikko](https://voikko.puimula.org/) library which seems to be the only NLP linguistic tool that can morphologically analyze Finnish texts.
+Experiment Word2Vec skip-gram model to embed textual Finnish words to numerical vectors which is the basis for almost all kind of NLP (Natural Language Processing) tasks. Implement the Word2Vec skip-gram model with tensorflow. Tokenize and lemmatize Finnish texts with the [voikko](https://voikko.puimula.org/) library which seems to be the only NLP linguistic tool that can morphologically analyze Finnish texts.
 
 ### Libraries used
 
@@ -11,7 +12,8 @@ Use the Word2Vec skip-gram model to embed textual Finnish words to numerical vec
 3. numpy
 
 ### Dataset
-The dataset used in this experiment is extracted from News and is intended to be used in a machine translation task. It is used to train the word2vec model herein. Can be downloaded from [here](http://statmt.org/wmt17/translation-task.html#download).
+* Extracted from News and is intended to be used in a machine translation task
+* Download [link](http://statmt.org/wmt17/translation-task.html#download).
 
 
 ### Descriptions of files
