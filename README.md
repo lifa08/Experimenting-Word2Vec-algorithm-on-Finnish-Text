@@ -18,7 +18,7 @@ Experiment Word2Vec skip-gram model to embed textual Finnish words to numerical 
 
 ### Descriptions of files
 
-#### Folder: notebooks
+#### [notebooks](notebooks/)
 
 [fin_w2v_utils.ipynb](notebooks/fin_w2v_utils.ipynb)
 
@@ -36,7 +36,7 @@ Include instuctions to install voikko library **libvoikko** on mac.
 
 Test the usage of voikko to tokenize a sentence and lemmatize a document.
 
-#### Folder: python
+#### [python](python/)
 
 [fin_w2v_utils.py](python/fin_w2v_utils.py): python version of [fin_w2v_utils.ipynb](notebooks/fin_w2v_utils.ipynb)
 
